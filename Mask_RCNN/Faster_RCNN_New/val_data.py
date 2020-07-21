@@ -1,0 +1,2 @@
+from detectron2.data.datasets import register_coco_instances
+register_coco_instances("val", {}, "C:/Users/yz18514/detectron2/Faster_RCNN_New/data/val.json", "C:/Users/yz18514/detectron2/Faster_RCNN_New/data/val_annotations")
