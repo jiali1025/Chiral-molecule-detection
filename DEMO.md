@@ -33,11 +33,9 @@ Open \FasterR-CNN_Demo_Complete\LabelIMG\ labelImg.exe.
 
 Click the “Open” button and open the image.
 
-
 ![image](https://user-images.githubusercontent.com/65342604/109371638-cbac3480-78e0-11eb-9549-d34ac3604fe8.png)
 
 Draw bounding boxes on molecular instances with correct labels.
-
 
 ![image](https://user-images.githubusercontent.com/65342604/109371641-d1a21580-78e0-11eb-8470-cb7230fde893.png)
 
@@ -47,6 +45,7 @@ Save the annotation file as \FasterR-CNN_Demo\Database\trainset1\Annotations\0.x
 
 ## 3. Run file \FasterR-CNN_Demo\Database\Convert.py to convert annotation in 0.xml format to 0.json format.
 ![image](https://user-images.githubusercontent.com/65342604/109371666-eb435d00-78e0-11eb-91a9-81e0d5af12d8.png)
+
 Key in python command line the path of Convert.py, the directory of 0.xml file, and the path of output 0.json file.
 
 (venv) E:\PyProjects> E:\PyProjects\FasterR-CNN_Demo\Database\Convert.py E:\PyProjects\FasterR-CNN_Demo\Database\trainset1\Annotations E:\PyProjects\FasterR-CNN_Demo\Database\trainset1\Annotations\0.json
@@ -75,7 +74,9 @@ Code you need to rewrite:
 
 Train.py:
 Line 9: Change the directory to the correct directory of the training set.
+
 ![image](https://user-images.githubusercontent.com/65342604/109371723-25146380-78e1-11eb-99c4-132b0de96a03.png)
+
 Model hyperparameters and training settings are already pre-defined in this demo. They are good enough to obtain a Faster R-CNN model for high-resolution SPM images.
 
 Then run Train.py. It will usually take less than 30min to complete the training depending on your GPU. The model will be automatically saved at \FasterR-CNN_Demo_Complete\Results\output\model_final.pth after finishing.
@@ -88,11 +89,14 @@ Line 19: Change the directory to the correct directory of the training set.
 Line 36: Change the path to the path of the automatically saved model model_final.pth.
 
 ![image](https://user-images.githubusercontent.com/65342604/109371729-31002580-78e1-11eb-9a0b-dd837236d4a9.png)
+
 Then, run Inference.py. It will generate an inference result in around 10 seconds.
 
 ![image](https://user-images.githubusercontent.com/65342604/109371734-378e9d00-78e1-11eb-8ec7-a249eb61b40c.png)
+
 You can compare this result with a reference provided in this demo at \FasterR-CNN_Demo\Database\testset1\Reference.png. A more human-friendly inference result is also saved on your desktop.
 
 ![image](https://user-images.githubusercontent.com/65342604/109371740-41b09b80-78e1-11eb-9359-4603d69bb3cc.png)
+
 Notes: The model trained in demo may not be robust enough for images of lower resolution. Please refer to main text and section 6 Computing Materials (Python files) for more information on data augmentation techniques and model hyperparameters to obtain a more robust model.
 
