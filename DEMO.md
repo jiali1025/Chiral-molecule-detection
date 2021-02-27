@@ -21,11 +21,11 @@ FasterR-CNN_demo
 └─output
 Another folder named “FasterR-CNN_demo_complete,” which contains all files created in this demo, is also provided in the zip file for reference. 
 
-## Select an image for dataset generation.
+## 1. Select an image for dataset generation.
 Put this image in \FasterR-CNN_Demo\Database\trainset1\Images\0.jpg.
 The image is already provided in this demo. Create more folders for trainsets or test sets if necessary.
 
-## Label the selected image by using labelImg. 
+## 2. Label the selected image by using labelImg. 
 We need to provide a label (either left-handed or right-handed) for each molecule in the image for Faster R-CNN to learn.
 Open \FasterR-CNN_Demo_Complete\LabelIMG\ labelImg.exe. 
 
@@ -40,7 +40,7 @@ After labeling all molecules on the image.
 After labeling all molecules on the image.
 Save the annotation file as \FasterR-CNN_Demo\Database\trainset1\Annotations\0.xml
 
-## Run file \FasterR-CNN_Demo\Database\Convert.py to convert annotation in 0.xml format to 0.json format.
+## 3. Run file \FasterR-CNN_Demo\Database\Convert.py to convert annotation in 0.xml format to 0.json format.
 ![image](https://user-images.githubusercontent.com/65342604/109371666-eb435d00-78e0-11eb-91a9-81e0d5af12d8.png)
 Key in python command line the path of Convert.py, the directory of 0.xml file, and the path of output 0.json file.
 
@@ -51,14 +51,12 @@ Success: E:\PyProjects\FasterR-CNN_Demo\Database\trainset1\Annotations\0.json
 
 The annotations in json format will be created at \FasterR-CNN_Demo\Database\trainset1\Annotations\0.json
 
-## Run file \FasterR-CNN_Demo\ImgAugmentation.py to generate a training set.
+## 4. Run file \FasterR-CNN_Demo\ImgAugmentation.py to generate a training set.
 
 Code you need to rewrite:
 ImgAugmentation.py:
 
-
 ![image](https://user-images.githubusercontent.com/65342604/109371694-03b37780-78e1-11eb-8da8-67feab3f2f95.png)
-
 
 Line 5: Change the directory to the correct directory of the training set.
 Augmentation techniques used for dataset generation are already pre-defined in this demo. They are good enough to obtain a Faster R-CNN model for high-resolution SPM images.
@@ -67,7 +65,7 @@ Then run ImgAugmentation.py. It will create a dataset of 1000 augmented images a
 
 Now, we have prepared a dataset for Faster R-CNN training.
 
-## Run file Train.py to train a Faster R-CNN model on the dataset generated before. 
+## 5. Run file Train.py to train a Faster R-CNN model on the dataset generated before. 
 Code you need to rewrite:
 
 Train.py:
@@ -77,7 +75,7 @@ Model hyperparameters and training settings are already pre-defined in this demo
 
 Then run Train.py. It will usually take less than 30min to complete the training depending on your GPU. The model will be automatically saved at \FasterR-CNN_Demo_Complete\Results\output\model_final.pth after finishing.
 
-## Use the trained model to analyze the molecular patterns on another experimental image by Inference.py.
+## 6. Use the trained model to analyze the molecular patterns on another experimental image by Inference.py.
 Code you need to rewrite:
 Inference.py:
 Line 16: Change the path of the image required to analyze. A sample image is provided in this demo at \FasterR-CNN_Demo_Complete\Database\testset1\Test.png.
