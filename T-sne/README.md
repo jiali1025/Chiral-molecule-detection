@@ -1,1 +1,5 @@
+# T-sne
 
+This folder provides the files relevant to T-sne method.
+
+t-SNE is an unsupervised machine learning algorithm often used for clustering and visualisation of high-dimensional data. The algorithm starts by calculating the conditional probability of similarity between high-dimensional data points and also between their low-dimensional counterparts by the Euclidean distances of data points. It then attempts to minimise a cost function, which is defined as a single Kullback-Leibler divergence between joint probability distributions in the high-dimensional space and the low-dimensional space, by using a student’s t-distribution with a single degree of freedom to compute the similarity between two points in the low-dimensional space. Kullback-Leibler divergence measures the distance between two random distributions. When two random distributions are the same, their Kullback-Leibler divergence is equal to zero. When the difference between two random distributions increases, their Kullback-Leibler divergence also increases 
