@@ -1,6 +1,6 @@
 # Chiral Molecule-Detection
 
-## What's it
+## What's It
 Chiral Molecule-Detection is a one-image-one-system deep learning framework that implements state-of-the-art deep learning machine vision algorithm, a uniquely designed data selection method, and effective data augmentation techniques to provide a versatile solution capable of the automated recognition of a complex SPM pattern.
 
 ## Workflow
@@ -17,5 +17,8 @@ Install detectron2: https://github.com/facebookresearch/detectron2
 Install imgaug: https://github.com/aleju/imgaug
 Install labelIMG: https://github.com/tzutalin/labelImg
 
-## Getting started
+## Getting Started
 See DEMO.md
+
+## User Interface
+See UI.MD
