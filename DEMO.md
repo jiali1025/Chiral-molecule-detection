@@ -33,10 +33,14 @@ Open \FasterR-CNN_Demo_Complete\LabelIMG\ labelImg.exe.
 
 Click the “Open” button and open the image.
 
+
 ![image](https://user-images.githubusercontent.com/65342604/109371638-cbac3480-78e0-11eb-9549-d34ac3604fe8.png)
+
 Draw bounding boxes on molecular instances with correct labels.
 
+
 ![image](https://user-images.githubusercontent.com/65342604/109371641-d1a21580-78e0-11eb-8470-cb7230fde893.png)
+
 After labeling all molecules on the image.
 After labeling all molecules on the image.
 Save the annotation file as \FasterR-CNN_Demo\Database\trainset1\Annotations\0.xml
