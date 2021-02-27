@@ -9,7 +9,7 @@ The image is already provided in this demo. Create more folders for trainsets or
 
 ## 2. Label the selected image by using labelImg. 
 We need to provide a label (either left-handed or right-handed) for each molecule in the image for Faster R-CNN to learn.
-Open \FasterR-CNN_Demo_Complete\LabelIMG\ labelImg.exe. 
+Open \FasterR-CNN_Demo\LabelIMG\ labelImg.exe. 
 
 ![image](https://user-images.githubusercontent.com/65342604/109371633-c64eea00-78e0-11eb-8174-356849cdb7f0.png)
 
