@@ -18,3 +18,4 @@ Install imgaug: https://github.com/aleju/imgaug
 Install labelIMG: https://github.com/tzutalin/labelImg
 
 ## Getting started
+See DEMO.md
