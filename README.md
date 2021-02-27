@@ -7,10 +7,7 @@ Chiral Molecule-Detection is a one-image-one-system deep learning framework that
 ![image](https://user-images.githubusercontent.com/65342604/109371168-a1597780-78de-11eb-98e5-fad59e7dc505.png)
 
 ## Pre-requirements
-Python ≥ 3.6     
-Pytorch ≥ 1.4    
-Numpy ≤ 1.17   
-
+Python ≥ 3.6; Pytorch ≥ 1.4; Numpy ≤ 1.17   
 
 ## Installation
 See [INSTALL.md](./INSTALL.md)
