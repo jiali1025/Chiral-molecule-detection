@@ -8,13 +8,9 @@ Chiral Molecule-Detection is a one-image-one-system deep learning framework that
 
 ## Pre-requirements
 Python ≥ 3.6     
-https://www.python.org/ but install conda is recommended, due to it provides more packages in build, you don’t have to install packages one by one.
-
 Pytorch ≥ 1.4    
-https://pytorch.org/ click get stated, select your preference, and run the install command based on your working environment.
-
 Numpy ≤ 1.17   
-Install by using pip install or conda. Don’t install NumPy 1.18 because it cannot safely interpret flaot64 as an integer. You’ll receive this kind of error when evaluating.
+
 
 ## Installation
 See [INSTALL.md](./INSTALL.md)
