@@ -81,6 +81,7 @@ Inference.py:
 Line 16: Change the path of the image required to analyze. A sample image is provided in this demo at \FasterR-CNN_Demo_Complete\Database\testset1\Test.png.
 Line 19: Change the directory to the correct directory of the training set.
 Line 36: Change the path to the path of the automatically saved model model_final.pth.
+
 ![image](https://user-images.githubusercontent.com/65342604/109371729-31002580-78e1-11eb-9a0b-dd837236d4a9.png)
 Then, run Inference.py. It will generate an inference result in around 10 seconds.
 
