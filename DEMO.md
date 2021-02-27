@@ -1,29 +1,6 @@
 # A step-by-step demo:
 
-After the software and packages above successfully installed, a simple 1-hour demo to train a Faster R-CNN model for F-HPB system molecule recognition is provided in “FasterR-CNN_demo.zip.” The structure of the demo folder should be: 
-
-FasterR-CNN_demo
-Database
-
-    Convert.py
-    ImgAugmentation.py
-  testset1
-  
-        Reference.png
-        Test.png
-  trainset1
-  
-      Annotations
-      Images
-              0.jpg
-LabelIMG
-
-    labelImg.exe
-Results
-
-    Inference.py
-    Train.py
-output
+After the software and packages above successfully installed, a simple 1-hour demo to train a Faster R-CNN model for F-HPB system molecule recognition is provided in “FasterR-CNN_demo.zip.” 
 Another folder named “FasterR-CNN_demo_complete,” which contains all files created in this demo, is also provided in the zip file for reference. 
 
 ## 1. Select an image for dataset generation.
