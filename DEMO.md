@@ -56,7 +56,9 @@ The annotations in json format will be created at \FasterR-CNN_Demo\Database\tra
 Code you need to rewrite:
 ImgAugmentation.py:
 
+
 ![image](https://user-images.githubusercontent.com/65342604/109371694-03b37780-78e1-11eb-8da8-67feab3f2f95.png)
+
 
 Line 5: Change the directory to the correct directory of the training set.
 Augmentation techniques used for dataset generation are already pre-defined in this demo. They are good enough to obtain a Faster R-CNN model for high-resolution SPM images.
