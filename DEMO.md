@@ -46,8 +46,8 @@ Key in python command line the path of Convert.py, the directory of 0.xml file, 
 
 (venv) E:\PyProjects> E:\PyProjects\FasterR-CNN_Demo\Database\Convert.py E:\PyProjects\FasterR-CNN_Demo\Database\trainset1\Annotations E:\PyProjects\FasterR-CNN_Demo\Database\trainset1\Annotations\0.json
 
->>Number of xml files: 1
->>Success: E:\PyProjects\FasterR-CNN_Demo\Database\trainset1\Annotations\0.json
+Number of xml files: 1
+Success: E:\PyProjects\FasterR-CNN_Demo\Database\trainset1\Annotations\0.json
 
 The annotations in json format will be created at \FasterR-CNN_Demo\Database\trainset1\Annotations\0.json
 
